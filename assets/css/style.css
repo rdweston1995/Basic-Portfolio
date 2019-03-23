@@ -65,3 +65,13 @@ p{
 body{
     background-image: url("dark-honeycomb.png");
 }
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    border-color: transparent;
+    border-right-color: grey;
+}
