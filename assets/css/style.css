@@ -16,9 +16,15 @@
     margin: 0px;
 
 }
+#bio.h2{
+    border-bottom-color: grey;
+    text-align: left;
+    font: 50px;
+}
 
 h2{
     text-align: left;
+    
 }
 
 h1{
