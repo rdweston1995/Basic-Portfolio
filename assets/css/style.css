@@ -1,6 +1,6 @@
 body{
-    background-image: url("dark-honeycomb.png");
-    
+    background-image: url("../images/SouthFromRainier.jpg");
+    background-size: 100%;
 }
 
 header{
@@ -22,7 +22,7 @@ header{
 
 h1{
     background-color: #4aaaa5;
-    width: 13%;
+    width: 260px;
     height: 40px;
     padding: 20px;
     margin: 0px;
@@ -67,11 +67,16 @@ button{
     /*position: fixed;*/
     height: 100%;
     width: 960px;
-    margin: 10px;
+    margin: 0px;
     padding-left: 10px;
     padding-bottom: 20px;
     position: relative;
-    left: 25%
+    left: 25%;
+    
+}
+
+#img{
+    /*loat: left;*/
 }
 
 h2{
@@ -80,6 +85,7 @@ h2{
 
 p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
 }
 
 footer{
@@ -94,3 +100,4 @@ footer{
     border-color: #4aaaa5;
     
 }
+
