@@ -1,29 +1,26 @@
-/*h3{
-    float:right;
-    color: blue;
-    margin: 10px;
+body{
+    background-image: url("dark-honeycomb.png");
+    
+}
 
-}*/
 
-#bio{
-    text-align: center;
+
+header{
     background-color: #ffffff;
-    border-color: #dddddd;
-    border: 10px;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: right;
+    /*top: 0;
+    left:0;
+    width: 100%;
     position: fixed;
-    height: 550px;
-    width: 960px;
-    margin: 0px;
-
-}
-#bio.h2{
-    border-bottom-color: grey;
-    text-align: left;
-    font: 50px;
-}
-
-h2{
-    text-align: left;
+    */
+    width: 100%;
+    padding: 0px;
+    margin: -10px;
+    margin-bottom: 20px;
+    
+    
     
 }
 
@@ -33,14 +30,51 @@ h1{
     height: 40px;
     padding: 10px;
     margin: 0px;
+    text-align:left;
+    color: white;
 }
 
-header{
+button{
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    border-color: transparent;
+    border-right-color: lightgrey;  
+}
+
+.container{
+    /*width: 960px; Only Way to get the Header to span the entire top of page*/
+    /*width: 100%;*/
+    /*align-self: 0;*/
+    border-color: #dddddd;
+    margin: auto;
+    margin-top: 10px;
     background-color: #ffffff;
-    border-color: #cccccc;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    text-align: right;
     
+}
+
+
+
+#bio{
+    text-align: center;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border: 10px;
+    /*position: fixed;*/
+    height: 550px;
+    width: 960px;
+    margin: 10px;
+    float:center;
+}
+
+h2{
+    text-align: left;
+}
+
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 footer{
@@ -54,30 +88,4 @@ footer{
     height: 50px;
     border-color: #4aaaa5;
     
-}
-
-.container{
-    width: 960px;
-    align-self: 0;
-    border-color: #dddddd;
-    margin: auto;
-    background-color: #ffffff;
-}
-
-p{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-body{
-    background-image: url("dark-honeycomb.png");
-}
-
-button{
-    height: 50px;
-    width: 100px;
-    background-color: transparent;
-    margin: 0px;
-    padding: 0px;
-    border-color: transparent;
-    border-right-color: grey;
 }
