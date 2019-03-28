@@ -44,13 +44,19 @@ header{
 h1{
     background-color: #4aaaa5;
     width: 260px;
-    height: 30px;
+    height: 20px;
+
     padding: 30px;
+    padding-top: 40px;
+
     text-align: center;
     color: white;
     position: absolute;
     left: 25%;
     margin-top: -10px;
+    
+
+    font-size: 30px;
 }
 
 /*** BUTTONS ***/
@@ -60,9 +66,37 @@ button{
     background-color: transparent;
     border-color: transparent;
     border-right-color: darkgrey;
-    position: relative;
+    position: absolute;
     left: 960px;
+    margin: 30px;
 }
+
+/*** H3: Links to other pages ***/
+h3{
+    height: 15px;
+    width: 100px;
+    position: relative;
+    top: 35px;
+    left: 1160px;
+    float: left;  
+    
+    padding-right: 0px;
+    margin-right: 0px;
+
+    /*
+    border-right-color: darkgrey;
+    border-right-style: solid;
+    border-right-width: 2px;
+    */
+}
+
+/*** Removing the underline for the links ***/
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: grey;
+}
+
+/*** END OF HEADER ***/
 
 /*** CONTAINER ***/
 .container{
@@ -82,6 +116,7 @@ button{
     padding-top: 40px;*/
     /** Needs to be relative otherwise the page will not display everything **/
     position: absolute;
+    position: relative;
     top: 80px;
     left: 25%;
 
@@ -92,7 +127,8 @@ button{
 
 /*** H2: ABOUT ME ***/
 h2{
-    position: absolute;
+    /*position: absolute;*/
+    position: relative;
     left: 5%;
     top: 5%;
     width: 100%;
