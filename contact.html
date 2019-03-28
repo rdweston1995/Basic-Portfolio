@@ -2,6 +2,7 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style1.css">
         <title>Contact Me</menu></title>
     </head>
@@ -11,10 +12,15 @@
         <!-- h1: My Name -->
         <h1>Robert Weston</h1>
 
-        <!-- Buttons -->
+        <h3><a href="index.html">About</a></h3>
+        <h3><a href="portfolio.html">Portfolio</a></h3>
+        <h3 id="contactLink"><a href="contact.html">Contact</a></h3>
+
+        <!-- Buttons 
         <button type="index.html">About</button>
         <button type="portfolio.html">Portfolio</button>
         <button id="button3" type="contact.html">Contact</button>
+        -->
     </header>
 
     <body class="container">
@@ -22,14 +28,30 @@
             <!-- Section 1 -->
             <section id="bio">
                     <h2>Contact</h2>
-            
+
+                    <form action="/action_page.php">
+                        Name: <br><input type="text" name="Name"><br>
+                        Email: <br><input type="text" email="Email"><br>
+                        Message: <br><input id="message" type="text" message="Message"><br>
+
+                        <!--<input id="submit" type="submit" value="Submit"> -->
+                    </form>
+
+                    <div id="submit">Submit</div>
+                    <!--
+                    <form id="submit">
+                        <input id="submit" type="submit" value="Submit">
+                    </form>
+                    -->
+                    <!--
                     <p>Name</p>
         
                     <p>Email</p>
         
                     <p>Message</p>
-
-                    <button id="submit" type="submit">Submit</button>
+                    
+                    
+                    <button id="submit" type="submit">Submit</button-->
             </section>
 
         </div>
